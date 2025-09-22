@@ -1,6 +1,6 @@
 # TODO
 
-A new Flutter project.
+A new Flutter project to store/organize tasks.
 
 ## Getting Started
 
