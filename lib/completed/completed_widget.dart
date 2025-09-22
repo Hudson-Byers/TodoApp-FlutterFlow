@@ -166,9 +166,6 @@ class _CompletedWidgetState extends State<CompletedWidget> {
                           hoverColor: Colors.transparent,
                           highlightColor: Colors.transparent,
                           onTap: () async {
-                            _model.delete = true;
-                            safeSetState(() {});
-
                             context.pushNamed(
                               DetailsWidget.routeName,
                               queryParameters: {
