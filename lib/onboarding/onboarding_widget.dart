@@ -477,7 +477,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                   ),
                 ),
                 Align(
-                  alignment: AlignmentDirectional(0.0, -1.0),
+                  alignment: AlignmentDirectional(-1.0, -1.0),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
                     child: Image.asset(
