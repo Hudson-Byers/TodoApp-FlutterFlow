@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Firestore ToDo App User Document",
+  "type": "object",
+  "properties": {
+    "birthday": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp of user's birthday (ISO 8601 format)."
+    },
+    "created_time": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the user was created (ISO 8601 format)."
+    },
+    "display_name": {
+      "type": "string",
+      "description": "Display name of the user."
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Email address of the user."
+    },
+    "uid": {
+      "type": "string",
+      "description": "Unique identifier for the user."
+    }
+  },
+  "required": ["birthday", "created_time", "display_name", "email", "uid"],
+  "additionalProperties": false
+}
